@@ -1,3 +1,3 @@
 # TestWeb
-Treinamento para automatomação web
+Treinamento para Automação Web utilizando Robot Framework
 Curso da Udemy com Mayara Fernandes
