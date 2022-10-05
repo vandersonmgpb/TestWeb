@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.0 on win32)" generated="20221004 20:39:17.099" rpa="false" schemaversion="3">
+<suite id="s1" name="Amazon Testes" source="C:\CursoUdemy\AutomacaoRobotFramework\TestWeb\amazon_testes.robot">
+<test id="s1-t1" name="Caso de Teste 01 - Acesso ao menu &quot;Livros&quot;" line="11">
+<kw name="Abrir o navegador" type="SETUP">
+<msg timestamp="20221004 20:39:17.122" level="FAIL">No keyword with name 'Abrir o navegador' found.</msg>
+<status status="FAIL" starttime="20221004 20:39:17.122" endtime="20221004 20:39:17.122"/>
+</kw>
+<doc>Esse teste verificar o menu Liros do site da Amazon.com.br
+e verificar a categoria Indicações</doc>
+<tag>menus</tag>
+<status status="FAIL" starttime="20221004 20:39:17.121" endtime="20221004 20:39:17.123">Setup failed:
+No keyword with name 'Abrir o navegador' found.</status>
+</test>
+<test id="s1-t2" name="Caso de Teste 02 - Pesquisa de Produto" line="22">
+<kw name="Abrir o navegador" type="SETUP">
+<msg timestamp="20221004 20:39:17.125" level="FAIL">No keyword with name 'Abrir o navegador' found.</msg>
+<status status="FAIL" starttime="20221004 20:39:17.125" endtime="20221004 20:39:17.125"/>
+</kw>
+<doc>Esse teste verificar a busca e um produto</doc>
+<tag>busca_protutos</tag>
+<tag>lista_busca</tag>
+<status status="FAIL" starttime="20221004 20:39:17.124" endtime="20221004 20:39:17.125">Setup failed:
+No keyword with name 'Abrir o navegador' found.</status>
+</test>
+<doc>Essa suite testa i sute da Amazon.com.br</doc>
+<status status="FAIL" starttime="20221004 20:39:17.101" endtime="20221004 20:39:17.126"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">busca_protutos</stat>
+<stat pass="0" fail="1" skip="0">lista_busca</stat>
+<stat pass="0" fail="1" skip="0">menus</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Amazon Testes">Amazon Testes</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20221004 20:39:17.091" level="ERROR">Error in file 'C:\CursoUdemy\AutomacaoRobotFramework\TestWeb\amazon_testes.robot' on line 4: Non-existing setting 'Teardown'. Did you mean:
+    Test Teardown
+    Task Teardown
+    Suite Teardown</msg>
+</errors>
+</robot>
